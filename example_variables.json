@@ -1,0 +1,24 @@
+{
+	"example_variables_config": {
+		"file1.csv": {
+			"TABLE_NAME" : "table1",
+            "TABLE":"final1",
+            "ARCHIVE":"archive_loc1/",
+            "BIGQUERY_TO_GCS":"gs://bharadwaja-gcp-training/export-bigquery.csv",
+            "QUERY":"SELECT * FROM airflow_test1.table1 where store_number=2190 "
+
+               
+
+		},
+
+        "file2.csv": {
+			"TABLE_NAME" : "table2",
+            "TABLE":"final2",
+            "ARCHIVE":"archive_loc2/",
+            "BIGQUERY_TO_GCS":"gs://bharadwaja-gcp-training/export-bigquery2.csv",
+            "QUERY":"SELECT * FROM airflow_test1.table2 where Year='2006' "
+   
+
+		}
+	}
+}
